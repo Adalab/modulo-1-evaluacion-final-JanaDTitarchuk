@@ -1,0 +1,61 @@
+@import "../core/variables.scss";
+
+.footer {
+  background-color: #304268;
+  height: 420px;
+  margin-bottom: 0;
+}
+.box3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.firstList {
+  text-align: center;
+  font-family: $font-type_text;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.88;
+  text-transform: uppercase;
+  color: $color_header-text;
+  margin-top: -2px;
+  margin-bottom: 30px;
+}
+.secondList {
+  text-align: center;
+  text-align: center;
+  font-size: 16px;
+  color: $color_header-text;
+  font-weight: normal;
+  line-height: 1.88;
+  text-transform: uppercase;
+  font-family: $font-type_text;
+  margin-bottom: 30px;
+}
+.fa.fa-heart {
+  width: 15px;
+  color: $color_links;
+}
+.rights {
+  color: $color_header-text;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.14;
+  font-family: $font-type_text;
+}
+.components {
+  margin-bottom: 45px;
+  color: $color_header-text;
+  font-size: 14px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.14;
+  letter-spacing: normal;
+  font-family: $font-type_text;
+}

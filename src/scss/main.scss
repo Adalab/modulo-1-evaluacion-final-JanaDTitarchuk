@@ -1,13 +1,13 @@
+// Core
 @import "core/reset";
+
+// Layouts
 @import "layout/header";
 @import "layout/insomniaTips";
 @import "layout/3reasons";
-@import "layout/upArrow-div.scss";
+@import "layout/upArrow-div";
+@import "layout/footer";
 
 .central-column {
   margin: 0 15px;
-}
-
-.heart {
-  width: 10px;
 }
