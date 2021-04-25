@@ -1,0 +1,73 @@
+@import "../core/variables.scss";
+
+.box2 {
+  background-color: #eff9ff;
+  width: 100vw;
+  height: 624px;
+}
+.reasons {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 624px;
+}
+.container3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.title_3reasons {
+  font-family: $font-type_titles;
+  font-size: 24px;
+  color: $color_text;
+  font-weight: bold;
+  text-align: center;
+  width: 290px;
+  height: 30px;
+  line-height: 1.25;
+  margin-top: 30px;
+  margin-bottom: 45px;
+}
+.reason-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 93px;
+  margin-bottom: 45px;
+}
+.reason-title {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.67;
+  color: $color_text;
+  font-family: $font-type_titles;
+}
+.reason-text {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.67;
+  font-family: $font-type_text;
+  width: 180px;
+  height: 63px;
+  text-align: center;
+}
+
+.box-more {
+  width: 184px;
+  height: 45px;
+  background-color: $color_links;
+  margin-bottom: 60px;
+}
+.more-reasons {
+  font-size: 20px;
+  color: $color_header-text;
+  font-family: $font-type_text;
+  font-stretch: normal;
+  line-height: 2.25;
+  letter-spacing: normal;
+}

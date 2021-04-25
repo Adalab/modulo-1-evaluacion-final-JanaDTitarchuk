@@ -1,6 +1,8 @@
-@import "core/reset.scss";
-@import "layout/header.scss";
+@import "core/reset";
+@import "layout/header";
 @import "layout/insomniaTips";
+@import "layout/3reasons";
+@import "layout/upArrow-div.scss";
 
 .central-column {
   margin: 0 15px;
