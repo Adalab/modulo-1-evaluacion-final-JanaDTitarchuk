@@ -86,15 +86,9 @@
   width: 184px;
   height: 45px;
   background-color: $color_links;
-  // margin-left: 68px;
-  // margin-bottom: 30px;
   margin: auto;
-  //margin: 0 auto 60px auto;
   @media all and (min-width: 768px) {
     grid-column: 2/3;
-    //     margin: 0;
-    //     margin-left: 25px;
-    //     margin-bottom: 35px;
   }
   @media all and (min-width: 1280px) {
     width: 255px;
@@ -111,20 +105,10 @@
 .reason-block {
   width: 180px;
   height: 93px;
-  // margin-left: 70px;
-  // margin-right: 70px;
   margin: auto;
 
   @media all and (min-width: 768px) {
     width: 212.3px;
     height: 112px;
-  }
-}
-.reason-block.1 {
-  @media all and (min-width: 768px) {
-    // margin-left: 35.7px;
-  }
-  @media all and (min-width: 1280px) {
-    // margin-left: 81.2px;
   }
 }
