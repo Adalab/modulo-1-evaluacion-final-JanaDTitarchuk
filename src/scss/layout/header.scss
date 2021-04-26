@@ -39,6 +39,21 @@
   text-transform: uppercase;
   font-family: $font-type_titles;
   margin-bottom: 0;
+  margin: 0 25px;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+  line-height: 1.31;
+  width: 290px;
+  @media all and (min-width: 768px) {
+    font-size: 80px;
+    line-height: 1.33;
+    width: 690px;
+  }
+  @media all and (min-width: 1280px) {
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+    font-size: 100px;
+    line-height: 1.32;
+    width: 730px;
+  }
 }
 .header-text {
   font-family: $font-type_text;
@@ -46,6 +61,9 @@
   font-size: 16px;
   font-weight: normal;
   margin-top: 10px;
+  @media all and (min-width: 768px) {
+    font-size: 24px;
+  }
 }
 .click {
   background-color: white;
@@ -59,8 +77,16 @@
   margin-bottom: 53px;
   width: 45px;
   height: 45px;
+  @media all and (min-width: 768px) {
+    margin-bottom: 45px;
+    margin-top: 30px;
+  }
+  @media all and (min-width: 1280px) {
+    margin-bottom: 13px;
+  }
 }
 .arrow {
   width: 20px;
   height: 11.7px;
+  margin-top: 10px;
 }
