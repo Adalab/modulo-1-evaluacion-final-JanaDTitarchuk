@@ -18,12 +18,6 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
   }
-  // @media all and (min-width: 1280px) {
-  //   width: 730px;
-  //   font-size: 32px;
-  //   line-height: 1.41;
-  //   margin-top: 60px;
-  // }
 }
 
 .title_3reasons {
@@ -44,12 +38,10 @@
     //   line-height: 1.73;
     //   margin-left: 120px;
   }
-  // @media all and (min-width: 1280px) {
-  //   width: 730px;
-  //   font-size: 32px;
-  //   line-height: 1.41;
-  //   margin-top: 60px;
-  // }
+  @media all and (min-width: 1280px) {
+    font-size: 32px;
+    line-height: 1.41;
+  }
 }
 
 .reason-title {
@@ -63,11 +55,8 @@
   //   width: 210px;
   //   height: 30px;
   font-size: 24px;
-  //   line-height: 1.25;
+  line-height: 1.25;
   //   margin: 0;
-  // }
-  // @media all and (min-width: 1280px) {
-  //   width: 350px;
   // }
 }
 .reason-text {
@@ -88,29 +77,27 @@
     //   width: 212.3px;
     //   height: 68px;
     font-size: 20px;
-    //   line-height: 1.5;
+    line-height: 1.5;
     //   margin: 0;
   }
-  // @media all and (min-width: 1280px) {
-  //   width: 353.8px;
-  //   height: 68px;
-  // }
 }
 
 .box-more {
   width: 184px;
   height: 45px;
   background-color: $color_links;
-  margin-left: 68px;
-  margin-bottom: 30px;
+  // margin-left: 68px;
+  // margin-bottom: 30px;
+  margin: auto;
   //margin: 0 auto 60px auto;
   @media all and (min-width: 768px) {
     grid-column: 2/3;
     //     margin: 0;
     //     margin-left: 25px;
     //     margin-bottom: 35px;
-    //   }
-    //   @media all and (min-width: 1280px) {
+  }
+  @media all and (min-width: 1280px) {
+    width: 255px;
   }
 }
 .more-reasons {
@@ -124,11 +111,20 @@
 .reason-block {
   width: 180px;
   height: 93px;
-  margin-left: 70px;
-  margin-right: 70px;
+  // margin-left: 70px;
+  // margin-right: 70px;
+  margin: auto;
 
   @media all and (min-width: 768px) {
     width: 212.3px;
     height: 112px;
+  }
+}
+.reason-block.1 {
+  @media all and (min-width: 768px) {
+    // margin-left: 35.7px;
+  }
+  @media all and (min-width: 1280px) {
+    // margin-left: 81.2px;
   }
 }
