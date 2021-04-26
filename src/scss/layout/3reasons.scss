@@ -27,16 +27,10 @@
   font-weight: bold;
   text-align: center;
   height: 30px;
-  //line-height: 1.25;
-  //margin: 30px 0 45px 0;
+
   @media all and (min-width: 768px) {
     grid-column: 1/4;
-    //   width: 450px;
-    //   text-align: center;
-    //   height: 45px;
-    //   font-size: 26px;
-    //   line-height: 1.73;
-    //   margin-left: 120px;
+
   }
   @media all and (min-width: 1280px) {
     font-size: 32px;
@@ -47,17 +41,12 @@
 .reason-title {
   font-size: 18px;
   font-weight: bold;
-  //line-height: 1.67;
   color: $color_text;
   font-family: $font-type_titles;
   text-align: center;
-  // @media all and (min-width: 768px) {
-  //   width: 210px;
-  //   height: 30px;
   font-size: 24px;
   line-height: 1.25;
-  //   margin: 0;
-  // }
+ 
 }
 .reason-text {
   font-size: 18px;
@@ -67,18 +56,11 @@
   height: 63px;
   text-align: center;
 
-  //margin: 0 55px 45px 55px;
+  
   @media all and (min-width: 768px) {
-    // width: 212.3px;
-    // height: 68px;
-    //   text-align: center;
-    //   justify-content: center;
-    //   align-content: center;
-    //   width: 212.3px;
-    //   height: 68px;
     font-size: 20px;
     line-height: 1.5;
-    //   margin: 0;
+ 
   }
 }
 
@@ -86,9 +68,11 @@
   width: 184px;
   height: 45px;
   background-color: $color_links;
-  margin: auto;
+  margin-left: 70px;
+  margin-bottom: auto;
   @media all and (min-width: 768px) {
     grid-column: 2/3;
+    margin:auto;
   }
   @media all and (min-width: 1280px) {
     width: 255px;
@@ -101,12 +85,15 @@
   font-stretch: normal;
   line-height: 2.25;
   letter-spacing: normal;
+    &:hover {
+      font-size: 26px;
+      transition: font-size ease 0.4s;
+    }
 }
 .reason-block {
   width: 180px;
   height: 93px;
-  margin: auto;
-
+  margin:auto;
   @media all and (min-width: 768px) {
     width: 212.3px;
     height: 112px;
