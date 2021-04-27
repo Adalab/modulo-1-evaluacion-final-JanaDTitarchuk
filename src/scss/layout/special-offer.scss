@@ -1,0 +1,25 @@
+@import "../core/variables.scss";
+
+.special-offer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100vw;
+  background-color: $color_links;
+  visibility: hidden;
+  @media all and(max-width: 768px) {
+    visibility: visible;
+  }
+}
+.title-special {
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+.subtitle-special {
+  width: 50%;
+}
+.text-special {
+  width: 50%;
+}
