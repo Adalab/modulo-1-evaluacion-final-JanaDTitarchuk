@@ -68,8 +68,13 @@
   width: 184px;
   height: 45px;
   background-color: $color_links;
+<<<<<<< HEAD
   margin-left: 70px;
   margin-bottom: auto;
+=======
+  margin: auto;
+
+>>>>>>> a72636fd540a551c823d8e0b02d8f992e4d96437
   @media all and (min-width: 768px) {
     grid-column: 2/3;
     margin:auto;
