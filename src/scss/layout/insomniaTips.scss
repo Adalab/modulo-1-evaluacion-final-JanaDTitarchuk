@@ -59,10 +59,14 @@
   height: 45px;
   margin-bottom: 45px;
   background-color: white;
-    &:hover {
-      background: linear-gradient(180deg,rgba(255,255,255,1)0%,rgba(136, 192, 238, 0.5)100%);
-      transition: background ease 0.7s;
-    }
+  &:hover {
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(136, 192, 238, 0.5) 100%
+    );
+    transition: background ease 0.7s;
+  }
   @media all and (min-width: 768px) {
     margin-bottom: 60px;
     width: 91px;
@@ -80,4 +84,3 @@
   line-height: 2.25;
   padding: 0 25px;
 }
-
